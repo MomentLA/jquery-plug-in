@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="GBK">
+    <title></title>
+</head>
+<body>
+我是中文   ?? ???
+
+</body>
+</html>
+<script>
+    var partten = /(\w{1,})\1/g;
+    var str = 'abcdddddefkkoppmq';
+    var result = (str.replace(partten,''));
+    console.log(result);
+</script>
